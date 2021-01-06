@@ -7,4 +7,6 @@ csp:
     - https://www.googletagmanager.com
     - https://www.googleadservices.com
     - https://googleads.g.doubleclick.net
-  img-src: https://www.googletagmanager.com
+  img-src: 
+    - https://www.googletagmanager.com
+    - https://www.google.com/pagead/
