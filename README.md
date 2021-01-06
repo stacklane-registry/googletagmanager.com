@@ -18,6 +18,11 @@ Applies the correct Content-Security-Policy and includes the `<script>` tag.
 <head>
 ...
 <googletagmanager.com-setup async id="YOUR-TAG-MANAGER-ID"/>
+
+<script> 
+window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} 
+gtag('js', new Date()); gtag('config', 'YOUR-TAG-MANAGER-ID'); 
+</script>
 ...
 </head>
 ```
