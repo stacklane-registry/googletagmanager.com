@@ -9,7 +9,7 @@ csp:
     - https://www.googletagmanager.com
     - https://www.googleadservices.com
     - https://googleads.g.doubleclick.net
-    - https://google.com
+    - https://www.google.com
   img-src: 
     - https://www.googletagmanager.com
     - https://www.google.com
