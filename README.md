@@ -7,7 +7,7 @@ A [Stacklane Connector](https://stacklane.com/docs/api/connectors) for [Google T
 /🔌.yaml
 
 ```
-- https://github.com/stacklane-registry/googletagmanager.com.git#!v1.0.0
+- https://github.com/stacklane-registry/googletagmanager.com.git#!v1.0.1
 ```
 
 ## Tag Usage
