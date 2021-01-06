@@ -2,11 +2,16 @@ script:
   src: https://www.googletagmanager.com/gtag/js?id={id}
   async: optional
   
+# https://developers.google.com/tag-manager/web/csp
+
 csp:
   script-src: 
     - https://www.googletagmanager.com
     - https://www.googleadservices.com
     - https://googleads.g.doubleclick.net
+    - https://google.com
   img-src: 
     - https://www.googletagmanager.com
-    - https://www.google.com/pagead/
+    - https://www.google.com
+  frame-src:
+    - https://bid.g.doubleclick.net
