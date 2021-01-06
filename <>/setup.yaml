@@ -3,5 +3,7 @@ script:
   async: optional
   
 csp:
-  script-src: https://www.googletagmanager.com
+  script-src: 
+    - https://www.googletagmanager.com
+    - https://www.googleadservices.com
   img-src: https://www.googletagmanager.com
